@@ -16,6 +16,14 @@ module.exports = {
         test: /\.tsx?$/,
         exclude: /node_modules/,
       },
+      {
+        use: ["style-loader", "css-loader"],
+        test: /\.css$/,
+      },
+      {
+        type:"asset/resource",
+        test: /\.(jpg|jpeg|png|svg|woff|woff2|ttf|eot|ico)$/,
+      }
     ],
   },
   plugins: [

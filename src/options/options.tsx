@@ -1,6 +1,6 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client';
-
+import "./options.css"
 
 const test = <h1>Option Page</h1>
 
